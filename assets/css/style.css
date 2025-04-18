@@ -42,8 +42,8 @@
 
 .col-5 {
     width: 42%;
-    padding-left: 12px;
-    padding-right: 12px;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
 }
 
 h3 {
@@ -76,6 +76,12 @@ button {
     height: 60px;
     border: 0;
     border-radius: 100px;
+    transition: background-color 100ms linear;
+}
+
+button:hover {
+    background-color: #28998cd3;
+    cursor: pointer;
 }
 
 p {
@@ -86,4 +92,61 @@ p {
     letter-spacing: 0px;
     text-align: center;
     color: #15143966;
+}
+
+.vdo-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #15143966;
+    max-width: 470px;
+    text-align: left;
+}
+
+.gap {
+    gap: 29px;
+}
+
+.margin {
+    margin-top: 67px;
+    margin-bottom: 110px;
+}
+
+.logo {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.29px;
+    text-align: center;
+    color: #1E0E62;
+    margin-right: 32px;
+    white-space: nowrap;
+}
+
+li {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #15143966;
+}
+
+.space-between {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
 }
