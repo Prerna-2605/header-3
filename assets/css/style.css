@@ -42,8 +42,8 @@
 
 .col-5 {
     width: 42%;
-    /* padding-left: 12px; */
-    /* padding-right: 12px; */
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 h3 {
@@ -109,8 +109,8 @@ p {
 }
 
 .margin {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .logo {
